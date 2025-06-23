@@ -19,3 +19,24 @@ App Tier (Royal Workshop)
 Database Tier (Treasure Vault)
 └── Azure PostgreSQL (Precious Data)
 ```
+
+**File structure Overview:**
+```
+tf-3tier-kingdom/
+├── README.md                 # You are here!
+├── main.tf                   # Main infrastructure resources
+├── variables.tf              # Variable declarations and descriptions
+├── outputs.tf                # Output values after deployment
+└── terraform.tfvars.example # Example configuration file
+```
+
+**File Descriptions:**
+```
+File                      | Purpose                          | Poetry Elements
+--------------------------|----------------------------------|----------------------------------------------------
+main.tf                   | Core infrastructure resources    | Rhyming comments, creative resource names
+variables.tf              | Input variables and validation   | Poetic descriptions and meaningful names
+outputs.tf                | Important values after deployment| Artistic output descriptions
+terraform.tfvars.example  | Configuration template           | Example values with creative naming
+
+```
